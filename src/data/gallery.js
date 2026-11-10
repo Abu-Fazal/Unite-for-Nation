@@ -12,6 +12,10 @@ import img10 from "../assets/gallery/10.webp";
 import img12 from "../assets/gallery/12.webp";
 import img13 from "../assets/gallery/13.webp";
 import img14 from "../assets/gallery/14.webp";
+import img15 from "../assets/gallery/15.webp";
+import img16 from "../assets/gallery/16.webp";
+import img17 from "../assets/gallery/17.webp";
+import img18 from "../assets/gallery/18.webp";
 
 export const gallery = [
   {
@@ -110,4 +114,32 @@ export const gallery = [
     title: "Legal awareness seminar for underprivileged families",
     alt: "Community seminar addressing affordable justice and free legal aid resources",
   },
+  {
+  id: "gal-15",
+  image: img15,
+  featured: false,
+  title: "Rehabilitation support for released prisoner at District Jail Meerut",
+  alt: "Unite For Nation team providing essentials to a newly released inmate outside District Jail Meerut",
+},
+{
+  id: "gal-16",
+  image: img16,
+  featured: false,
+  title: "Official court fine deposit document for inmate release",
+  alt: "Legal fine payment receipt of 2200 rupees deposited by Unite For Nation NGO for inmate release at Meerut Jail",
+},
+{
+  id: "gal-17",
+  image: img17,
+  featured: true,
+  title: "Free legal aid and inmate release initiative at Meerut Jail",
+  alt: "Unite For Nation NGO representatives standing with a released prisoner in front of District Jail Meerut main gate",
+},
+{
+  id: "gal-18",
+  image: img18,
+  featured: false,
+  title: "Newspaper coverage of Unite For Nation inmate release drive",
+  alt: "News clipping highlighting Unite For Nation paying legal penalties to secure freedom for underprivileged prisoners",
+},
 ];
