@@ -5,6 +5,7 @@ import {
   GallerySkeleton,
   ContactSkeleton,
   DonateSkeleton,
+  LegalCounselSkeleton,
   NotFoundSkeleton,
 } from './components/common/PageSkeleton';
 
@@ -14,6 +15,7 @@ const About = lazy(() => import('./pages/About'));
 const Gallery = lazy(() => import('./pages/Gallery'));
 const Contact = lazy(() => import('./pages/Contact'));
 const Donate = lazy(() => import('./pages/Donate'));
+const LegalCounsel = lazy(() => import('./pages/legal'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
 // Resolves both which page component to render AND which skeleton
@@ -33,6 +35,9 @@ function resolveRoute(pathname) {
   }
   if (cleanPath === '/contact' || cleanPath === '/contact/') {
     return { Page: Contact, Skeleton: ContactSkeleton };
+  }
+  if (cleanPath === '/legal' || cleanPath === '/legal/') {
+    return { Page: LegalCounsel, Skeleton: LegalCounselSkeleton };
   }
   if (cleanPath === '/donate' || cleanPath === '/donate/') {
     return { Page: Donate, Skeleton: DonateSkeleton };

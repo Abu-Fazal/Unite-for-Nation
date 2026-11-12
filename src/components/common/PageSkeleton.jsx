@@ -191,3 +191,28 @@ export function NotFoundSkeleton() {
     </div>
   );
 }
+
+/* ---------------------------- LEGAL COUNSEL ---------------------------- */
+// Mirrors LegalCounsel page (heading, intro paragraph, advocate grid skeleton)
+export function LegalCounselSkeleton() {
+  return (
+    <div className="min-h-screen bg-[#faf8f5] pt-16 sm:pt-20">
+      <NavbarSkeleton />
+      <section className="py-12 sm:py-16 bg-[#faf8f5]">
+        <div className="max-w-2xl mx-auto text-center mb-10">
+          <Bar className="text-2xl sm:text-4xl md:text-5xl font-body font-extrabold tracking-tight text-slate-900" />
+          <Bar className="mt-4 text-base sm:text-lg text-slate-700 leading-relaxed font-body" />
+        </div>
+        <div className="max-w-2xl mx-auto grid gap-6">
+          {[1, 2, 3].map((i) => (
+            <div key={i} className="bg-white border border-slate-200/90 rounded-2xl p-5 sm:p-6 shadow-xs">
+              <Bar className="aspect-[4/3] rounded-2xl mb-4" />
+              <Bar className="text-sm sm:text-base md:text-lg font-body font-bold tracking-tight text-slate-900" />
+              <Bar className="text-xs sm:text-sm mt-1 text-slate-600 font-body" />
+            </div>
+          ))}
+        </div>
+      </section>
+    </div>
+  );
+}

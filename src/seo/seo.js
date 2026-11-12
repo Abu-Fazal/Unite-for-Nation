@@ -50,6 +50,14 @@ export const ROUTES = {
     canonical: `${SITE_URL}/donate`,
     noindex: false,
   },
+  "/legal": {
+    path: "/legal",
+    title: "Legal Counsel | Unite for Nation",
+    description:
+      "Meet the advocates associated with Unite for Nation and explore the legal professionals supporting its mission to defend individuals facing false accusations and wrongful criminal cases.",
+    canonical: `${SITE_URL}/legal`,
+    noindex: false,
+  },
 };
 
 /**

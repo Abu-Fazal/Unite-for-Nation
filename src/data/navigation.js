@@ -5,6 +5,7 @@ export const navigation = {
     { id: "gallery", label: "Gallery", href: "/gallery" },
     { id: "contact", label: "Contact", href: "/contact" },
     { id: "donate", label: "Donate Us", href: "/donate" },
+    { id: "legal", label: "Legal Counsel", href: "/legal" },
   ],
   cta: {
     label: "WhatsApp Support",
