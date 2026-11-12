@@ -29,22 +29,20 @@ export function LegalCounsel() {
   return (
     <MainLayout currentPath="/legal">
       <section className="py-12 sm:py-16 bg-[#faf8f5]">
-        <Container>
-          <div className="max-w-2xl mx-auto text-center mb-10">
-            <h1 className="text-2xl sm:text-4xl md:text-5xl font-body font-extrabold tracking-tight text-slate-900">
-              Legal Counsel
-            </h1>
+        <div className="max-w-2xl mx-auto text-center mb-10">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl font-body font-extrabold tracking-tight text-slate-900">
+            Legal Counsel Team
+          </h1>
 
-            <p className="mt-4 text-base sm:text-lg text-slate-700 leading-relaxed font-body">
-              This section presents the advocates associated with Unite for Nation. They
-              support our mission to defend individuals facing false accusations and
-              wrongful criminal cases across India.
-            </p>
-          </div>
+          <p className="mt-4 text-base sm:text-lg text-slate-700 leading-relaxed font-body">
+            This section presents the advocates associated with Unite for Nation. They
+            support our mission to defend individuals facing false accusations and
+            wrongful criminal cases across India.
+          </p>
+        </div>
 
-          {/* Advocate grid - works with populated or empty registry */}
-          <AdvocateGrid advocates={legalCounsel} />
-        </Container>
+        {/* Advocate grid - works with populated or empty registry */}
+        <AdvocateGrid advocates={legalCounsel} />
       </section>
     </MainLayout>
   );
