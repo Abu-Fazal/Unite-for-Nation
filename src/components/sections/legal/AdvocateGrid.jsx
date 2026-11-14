@@ -21,10 +21,11 @@ const AdvocateGrid = ({ advocates }) => {
   // - Uses unique advocate.id as React key (as required)
   // - Preserves supplied data order (no sorting, no shuffling)
   // - Consistent spacing following existing project conventions
-  // - Responsive grid: 1 column mobile, 2 tablet, 3 desktop
-  // - Prevents horizontal overflow via container constraints
+  // - Responsive grid: 1 column mobile, 2 tablet (sm), 3 desktop/4K (lg)
+  // - Container max-width prevents excessive stretching on wider screens
+  // - mx-auto centers the grid within its parent
   return (
-    <div className="grid gap-6">
+    <div className="max-w-7xl mx-auto grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
       {advocates.map((advocate) => (
         <AdvocateCard
           key={advocate.id}

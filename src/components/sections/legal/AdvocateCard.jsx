@@ -51,7 +51,7 @@ const AdvocateCard = ({
           alt={alt || altFor(alt)}
           loading="lazy"
           decoding="async"
-          className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-90"
+          className="w-full h-full object-cover transition-all duration-300 group-hover:opacity-90 hover:scale-120 hover:cursor-pointer"
           // Fallback if image fails to load
           onError={(e) => {
             e.target.onerror = null; // Prevent infinite loops
