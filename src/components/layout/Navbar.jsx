@@ -45,7 +45,7 @@ const [isScrolled, setIsScrolled] = useState(false);
         </a>
 
         {/* Desktop Navigation Menu - Strictly 4 Links */}
-        <nav className="hidden lg:flex items-center gap-2 sm:gap-3">
+        <nav className="hidden lg:flex items-center gap-2 sm:gap-3 lg:text-lg lg:gap-4 border-2 border-red-500">
           {navigation.items.map((item) => {
             const isActive = currentPath === item.href || (item.href !== '/' && currentPath.startsWith(item.href));
             return (
@@ -53,7 +53,7 @@ const [isScrolled, setIsScrolled] = useState(false);
                 key={item.id}
                 href={item.href}
                 onClick={(e) => handleNavClick(e, item)}
-                className={`px-4 py-2.5 text-base sm:text-lg font-bold rounded-xl transition-colors ${isActive
+                className={`lg:px-3 lg:text-sm px-4 py-2.5 text-base sm:text-lg font-bold rounded-xl transition-colors ${isActive
                   ? "text-white bg-black font-extrabold"
                   : "text-slate-700 hover:text-slate-950 hover:bg-slate-100"
                   }`}
@@ -65,7 +65,7 @@ const [isScrolled, setIsScrolled] = useState(false);
         </nav>
 
         {/* Action Button: WhatsApp Direct Redirect */}
-        <div className="hidden lg:flex items-center gap-3">
+        <div className="hidden lg:flex items-center lg:px-5">
           <Button
             variant="whatsapp"
             size="sm"
