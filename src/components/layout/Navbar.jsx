@@ -45,7 +45,7 @@ const [isScrolled, setIsScrolled] = useState(false);
         </a>
 
         {/* Desktop Navigation Menu - Strictly 4 Links */}
-        <nav className="hidden lg:flex items-center gap-2 sm:gap-3 lg:text-lg lg:gap-4 border-2 border-red-500">
+        <nav className="hidden lg:flex items-center gap-2 sm:gap-3 lg:text-sm lg:gap-4">
           {navigation.items.map((item) => {
             const isActive = currentPath === item.href || (item.href !== '/' && currentPath.startsWith(item.href));
             return (
