@@ -11,7 +11,7 @@ export const legalCounsel = [
     designation: 'Advocate',
     location: 'Lucknow UP',
     court: "District Court",
-    image: 'https://images.unsplash.com/photo-1637589267610-6c66fc2a086b?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
+    image: img1,
     alt: 'Advocate Aisha Sharma - Legal Counsel'
   },
   {
@@ -20,7 +20,7 @@ export const legalCounsel = [
     designation: 'Advocate',
     location: 'Lucknow UP',
     court: "District & High Court",
-    image: 'https://images.unsplash.com/photo-1711993429168-d92ca29f2f61?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
+    image: img2,
     alt: 'Advocate Rohan Kumar - Legal Counsel'
   },
   {
@@ -29,7 +29,7 @@ export const legalCounsel = [
     designation: 'Advocate',
     location: 'Ghaziabad UP',
     court: "District Court",
-    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
+    image: img3,
     alt: 'Advocate Priya Singh - Legal Counsel'
   },
   {
@@ -38,7 +38,7 @@ export const legalCounsel = [
     designation: 'Advocate',
     location: 'Delhi',
     court: "Saket & Highcourt ",
-    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
+    image: img4,
     alt: 'Advocate Vikram Patel - Legal Counsel'
   },
   {
@@ -47,7 +47,7 @@ export const legalCounsel = [
     designation: 'Advocate',
     location: 'Ghaziabad UP',
     court: "Modinagar Court",
-    image: 'https://images.unsplash.com/photo-1623880840102-7df0a9f3545b?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
+    image: img5,
     alt: 'Advocate Nisha Sharma - Legal Counsel'
   },
 ];
