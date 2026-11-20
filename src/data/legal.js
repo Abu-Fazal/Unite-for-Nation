@@ -1,27 +1,27 @@
-import img1 from "../assets/advocate/abdul hafeez.jpeg";
-import img2 from "../assets/advocate/Mohd Arafat Khan.png";
+import img1 from "../assets/advocate/Mohd Arafat Khan.png";
+import img2 from "../assets/advocate/Sanjiv Chikara.png";
 import img3 from "../assets/advocate/Nadeem Akhtar.png";
 import img4 from "../assets/advocate/Rashid Hasan Chaudhary.jpeg";
-import img5 from "../assets/advocate/Sanjiv Chikara.png";
+import img5 from "../assets/advocate/abdul hafeez.jpeg";
 
 export const legalCounsel = [
   {
     id: 'advocate-001',
-    name: 'Adv. abdul hafeez',
-    designation: 'Legal Counsel',
-    location: 'Lucknow UP',
-    court: "District Court",
-    image: img1,
-    alt: 'Advocate Aisha Sharma - Legal Counsel'
-  },
-  {
-    id: 'advocate-002',
     name: 'Adv. Mohd Arafat Khan',
     designation: 'Legal Counsel',
     location: 'Lucknow UP',
     court: "District & High Court",
-    image: img2,
+    image: img1,
     alt: 'Advocate Rohan Kumar - Legal Counsel'
+  },
+  {
+    id: 'advocate-002',
+    name: 'Adv. Sanjiv Chikara',
+    designation: 'Legal Counsel',
+    location: 'Ghaziabad UP',
+    court: "Modinagar Court",
+    image: img2,
+    alt: 'Advocate Nisha Sharma - Legal Counsel'
   },
   {
     id: 'advocate-003',
@@ -43,12 +43,13 @@ export const legalCounsel = [
   },
   {
     id: 'advocate-005',
-    name: 'Adv. Sanjiv Chikara',
+
+    name: 'Adv. abdul hafeez',
     designation: 'Legal Counsel',
-    location: 'Ghaziabad UP',
-    court: "Modinagar Court",
+    location: 'Lucknow UP',
+    court: "District Court",
     image: img5,
-    alt: 'Advocate Nisha Sharma - Legal Counsel'
+    alt: 'Advocate Aisha Sharma - Legal Counsel'
   },
 ];
 
