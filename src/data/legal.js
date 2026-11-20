@@ -9,7 +9,8 @@ export const legalCounsel = [
     id: 'advocate-001',
     name: 'abdul hafeez',
     designation: 'Advocate',
-    location: 'Delhi',
+    location: 'Lucknow UP',
+    court: "District Court",
     image: 'https://images.unsplash.com/photo-1637589267610-6c66fc2a086b?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
     alt: 'Advocate Aisha Sharma - Legal Counsel'
   },
@@ -17,7 +18,8 @@ export const legalCounsel = [
     id: 'advocate-002',
     name: 'Mohd Arafat Khan',
     designation: 'Advocate',
-    location: 'Mumbai',
+    location: 'Lucknow UP',
+    court: "District & High Court",
     image: 'https://images.unsplash.com/photo-1711993429168-d92ca29f2f61?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
     alt: 'Advocate Rohan Kumar - Legal Counsel'
   },
@@ -25,7 +27,8 @@ export const legalCounsel = [
     id: 'advocate-003',
     name: 'Nadeem Akhtar',
     designation: 'Advocate',
-    location: 'Delhi',
+    location: 'Ghaziabad UP',
+    court: "District Court",
     image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
     alt: 'Advocate Priya Singh - Legal Counsel'
   },
@@ -33,7 +36,8 @@ export const legalCounsel = [
     id: 'advocate-004',
     name: 'Rashid Hasan Chaudhary',
     designation: 'Advocate',
-    location: 'Bangalore',
+    location: 'Delhi',
+    court: "Saket & Highcourt ",
     image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
     alt: 'Advocate Vikram Patel - Legal Counsel'
   },
@@ -41,7 +45,8 @@ export const legalCounsel = [
     id: 'advocate-005',
     name: 'Sanjiv Chikara',
     designation: 'Advocate',
-    location: 'Delhi',
+    location: 'Ghaziabad UP',
+    court: "Modinagar Court",
     image: 'https://images.unsplash.com/photo-1623880840102-7df0a9f3545b?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
     alt: 'Advocate Nisha Sharma - Legal Counsel'
   },

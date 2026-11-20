@@ -33,6 +33,7 @@ const AdvocateGrid = ({ advocates }) => {
           name={advocate.name}
           designation={advocate.designation}
           location={advocate.location}
+          court={advocate.court}
           image={advocate.image}
           alt={advocate.alt}
         />

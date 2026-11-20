@@ -33,6 +33,7 @@ const AdvocateCard = ({
   name,
   designation,
   location,
+  court,
   image,
   alt,
 }) => {
@@ -95,6 +96,17 @@ const AdvocateCard = ({
             "
           >
             {designation}
+          </p>
+        )}
+        {/* court details */}
+        {court && (
+          <p
+            className="
+              text-xs sm:text-sm mt-1 text-slate-600 font-body font-medium
+              line-clamp-1
+            "
+          >
+            {court}
           </p>
         )}
       </div>
