@@ -1,7 +1,13 @@
+import img1 from "../assets/advocate/abdul hafeez.jpeg";
+import img2 from "../assets/advocate/Mohd Arafat Khan.png";
+import img3 from "../assets/advocate/Nadeem Akhtar.png";
+import img4 from "../assets/advocate/Rashid Hasan Chaudhary.jpeg";
+import img5 from "../assets/advocate/Sanjiv Chikara.png";
+
 export const legalCounsel = [
   {
     id: 'advocate-001',
-    name: 'Advocate Aisha Sharma',
+    name: 'abdul hafeez',
     designation: 'Advocate',
     location: 'Delhi',
     image: 'https://images.unsplash.com/photo-1637589267610-6c66fc2a086b?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
@@ -9,7 +15,7 @@ export const legalCounsel = [
   },
   {
     id: 'advocate-002',
-    name: 'Advocate Rohan Kumar',
+    name: 'Mohd Arafat Khan',
     designation: 'Advocate',
     location: 'Mumbai',
     image: 'https://images.unsplash.com/photo-1711993429168-d92ca29f2f61?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
@@ -17,7 +23,7 @@ export const legalCounsel = [
   },
   {
     id: 'advocate-003',
-    name: 'Advocate Priya Singh',
+    name: 'Nadeem Akhtar',
     designation: 'Advocate',
     location: 'Delhi',
     image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
@@ -25,7 +31,7 @@ export const legalCounsel = [
   },
   {
     id: 'advocate-004',
-    name: 'Advocate Vikram Patel',
+    name: 'Rashid Hasan Chaudhary',
     designation: 'Advocate',
     location: 'Bangalore',
     image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
@@ -33,20 +39,12 @@ export const legalCounsel = [
   },
   {
     id: 'advocate-005',
-    name: 'Advocate Nisha Sharma',
+    name: 'Sanjiv Chikara',
     designation: 'Advocate',
     location: 'Delhi',
     image: 'https://images.unsplash.com/photo-1623880840102-7df0a9f3545b?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
     alt: 'Advocate Nisha Sharma - Legal Counsel'
   },
-  {
-    id: 'advocate-006',
-    name: 'Advocate Kartik Roy',
-    designation: 'Advocate',
-    location: 'Kolkata',
-    image: 'https://images.unsplash.com/photo-1542190891-2093d38760f2?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
-    alt: 'Advocate Kartik Roy - Legal Counsel'
-  }
 ];
 
 export const hasAdvocates = () => legalCounsel.length > 0;
