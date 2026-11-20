@@ -46,13 +46,13 @@ const AdvocateCard = ({
       // Reduced motion: disable aggressive hover transforms
       style={{ transitionDuration: reducedMotion.matches ? '0s' : '0.2s' }}
     >
-      <div className="relative aspect-[4/3] overflow-hidden mb-4">
+      <div className="relative aspect-[4/4] overflow-hidden mb-4">
         <img
           src={image}
           alt={alt || altFor(alt)}
           loading="lazy"
           decoding="async"
-          className="w-full h-full object-fill transition-all duration-300 group-hover:opacity-90 hover:scale-120 hover:cursor-pointer"
+          className="w-full h-full object-fill object-center transition-all duration-300 group-hover:opacity-90 hover:scale-120 hover:cursor-pointer"
           // Fallback if image fails to load
           onError={(e) => {
             e.target.onerror = null; // Prevent infinite loops
