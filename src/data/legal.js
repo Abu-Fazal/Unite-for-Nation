@@ -12,7 +12,7 @@ export const legalCounsel = [
     location: 'Lucknow UP',
     court: "District & High Court",
     image: img1,
-    alt: 'Advocate Rohan Kumar - Legal Counsel'
+    alt: 'Advocate Mohd Arafat Khan - Legal Counsel'
   },
   {
     id: 'advocate-002',
@@ -21,7 +21,7 @@ export const legalCounsel = [
     location: 'Ghaziabad UP',
     court: "Modinagar Court",
     image: img2,
-    alt: 'Advocate Nisha Sharma - Legal Counsel'
+    alt: 'Advocate Sanjiv Chikara - Legal Counsel'
   },
   {
     id: 'advocate-003',
@@ -30,7 +30,7 @@ export const legalCounsel = [
     location: 'Ghaziabad UP',
     court: "District Court",
     image: img3,
-    alt: 'Advocate Priya Singh - Legal Counsel'
+    alt: 'Advocate Nadeem Akhtar - Legal Counsel'
   },
   {
     id: 'advocate-004',
@@ -39,7 +39,7 @@ export const legalCounsel = [
     location: 'Delhi',
     court: "Saket & Highcourt ",
     image: img4,
-    alt: 'Advocate Vikram Patel - Legal Counsel'
+    alt: 'Advocate Rashid Hasan Chaudhary - Legal Counsel'
   },
   {
     id: 'advocate-005',
@@ -49,7 +49,7 @@ export const legalCounsel = [
     location: 'Lucknow UP',
     court: "District Court",
     image: img5,
-    alt: 'Advocate Aisha Sharma - Legal Counsel'
+    alt: 'Advocate abdul hafeez - Legal Counsel'
   },
 ];
 
