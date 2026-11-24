@@ -3,6 +3,7 @@ import img2 from "../assets/advocate/Sanjiv Chikara.png";
 import img3 from "../assets/advocate/Nadeem Akhtar.png";
 import img4 from "../assets/advocate/Rashid Hasan Chaudhary.jpeg";
 import img5 from "../assets/advocate/abdul hafeez.jpeg";
+import img6 from "../assets/advocate/faiz tyagi.jpeg";
 
 export const legalCounsel = [
   {
@@ -50,6 +51,15 @@ export const legalCounsel = [
     court: "District Court",
     image: img5,
     alt: 'Advocate abdul hafeez - Legal Counsel'
+  },
+  {
+    id: 'advocate-006',
+    name: 'Adv. Faiz Tyagi',
+    designation: 'Legal Counsel',
+    location: 'Ghaziabad UP',
+    court: "District Court",
+    image: img6,
+    alt: 'Advocate Faiz Tyagi - Legal Counsel'
   },
 ];
 
