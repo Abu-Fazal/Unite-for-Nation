@@ -63,17 +63,7 @@ const AdvocateCard = ({
           }}
         />
 
-        {/* Location badge - always visible, teal accent using existing #2A9D8F */}
-        <div
-          className="
-            absolute bottom-2 left-2 right-2 flex items-center gap-2 bg-white/90 backdrop-blur-sm
-            text-sm px-2.5 py-1 rounded-full text-slate-700
-          "
-        >
-          <span className="text-[#2A9D8F] font-medium">
-            {location || 'Location unavailable'}
-          </span>
-        </div>
+
       </div>
 
       <div>
@@ -98,6 +88,7 @@ const AdvocateCard = ({
             {designation}
           </p>
         )}
+
         {/* court details */}
         {court && (
           <p
@@ -109,6 +100,10 @@ const AdvocateCard = ({
             {court}
           </p>
         )}
+          <span className="text-xs sm:text-sm mt-1 font-body font-medium
+              line-clamp-1 text-[#2A9D8F] shrink-0">
+            {location}
+          </span>
       </div>
     </div>
   );
