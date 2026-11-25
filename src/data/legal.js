@@ -19,8 +19,8 @@ export const legalCounsel = [
     id: 'advocate-002',
     name: 'Adv. Sanjiv Chikara',
     designation: 'Legal Counsel',
-    location: 'Ghaziabad UP',
-    court: "Modinagar Court",
+    location: 'Modinagar Ghaziabad UP',
+    court: "Village Court",
     image: img2,
     alt: 'Advocate Sanjiv Chikara - Legal Counsel'
   },
@@ -37,8 +37,8 @@ export const legalCounsel = [
     id: 'advocate-004',
     name: 'Adv. Rashid Hasan Chaudhary',
     designation: 'Legal Counsel',
-    location: 'Delhi',
-    court: "Saket & Highcourt ",
+    location: 'Delhi State',
+    court: "High Court & District Court",
     image: img4,
     alt: 'Advocate Rashid Hasan Chaudhary - Legal Counsel'
   },
