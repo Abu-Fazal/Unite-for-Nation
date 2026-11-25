@@ -3,7 +3,7 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { ROUTES, getRouteSeo, buildJsonLd } from "../src/seo/seo.js";
+import { ROUTES, getRouteSeo, buildJsonLd, DEFAULT_OG_IMAGE } from "../src/seo/seo.js";
 
 const dist = join(dirname(fileURLToPath(import.meta.url)), "..", "dist");
 const template = readFileSync(join(dist, "index.html"), "utf8");
@@ -31,6 +31,13 @@ function render(seo) {
   html = setMeta(html, "property", "og:description", seo.description);
   html = setMeta(html, "name", "twitter:title", seo.title);
   html = setMeta(html, "name", "twitter:description", seo.description);
+  html = setMeta(html, "property", "og:image", DEFAULT_OG_IMAGE);
+  html = setMeta(html, "property", "og:image:secure_url", DEFAULT_OG_IMAGE);
+  html = setMeta(html, "property", "og:image:type", "image/png");
+  html = setMeta(html, "property", "og:image:width", "1200");
+  html = setMeta(html, "property", "og:image:height", "630");
+  html = setMeta(html, "name", "twitter:card", "summary_large_image");
+  html = setMeta(html, "name", "twitter:image", DEFAULT_OG_IMAGE);
   html = html.replace(/\s*<script type="application\/ld\+json"[^>]*>[\s\S]*?<\/script>/gi, "");
   const ld = buildJsonLd(seo);
   if (ld) {

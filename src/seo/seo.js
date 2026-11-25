@@ -239,6 +239,12 @@ export function applyClientSeo(pathname = "/") {
   let ogDesc = document.querySelector('meta[property="og:description"]');
   if (ogDesc) ogDesc.setAttribute("content", seo.description);
 
+  let ogImg = document.querySelector('meta[property="og:image"]');
+  if (ogImg) ogImg.setAttribute("content", DEFAULT_OG_IMAGE);
+
+  let twImg = document.querySelector('meta[name="twitter:image"]');
+  if (twImg) twImg.setAttribute("content", DEFAULT_OG_IMAGE);
+
   let ogUrl = document.querySelector('meta[property="og:url"]');
   if (ogUrl) {
     if (seo.canonical) ogUrl.setAttribute("content", seo.canonical);
