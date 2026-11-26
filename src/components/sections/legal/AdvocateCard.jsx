@@ -46,7 +46,7 @@ const AdvocateCard = ({
       // Reduced motion: disable aggressive hover transforms
       style={{ transitionDuration: reducedMotion.matches ? '0s' : '0.2s' }}
     >
-      <div className="relative aspect-[4/4] overflow-hidden mb-4">
+      <div className="relative aspect-square overflow-hidden mb-4">
         <img
           src={image}
           alt={alt || altFor(alt)}
